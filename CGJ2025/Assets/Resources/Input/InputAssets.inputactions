@@ -1,0 +1,34 @@
+{
+    "name": "InputAssets",
+    "maps": [
+        {
+            "name": "ActionMap",
+            "id": "d85df306-1730-4876-b16f-126df3530752",
+            "actions": [
+                {
+                    "name": "Skill",
+                    "type": "Button",
+                    "id": "3aba7321-842e-44b6-98ce-0a5191f06657",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7e4ecf67-c2ce-44cd-87ac-741b332553cc",
+                    "path": "<Keyboard>/f",
+                    "interactions": "Hold,Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Skill",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
