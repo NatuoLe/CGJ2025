@@ -5,6 +5,7 @@ using DG.Tweening;
 using System.Threading.Tasks;
 using Cysharp.Threading.Tasks;
 using Sirenix.OdinInspector;
+using ThGold.Wwise;
 using UnityEngine.SceneManagement;
 
 namespace Frame.Core
@@ -16,6 +17,7 @@ namespace Frame.Core
         GameAssets,
         UIManager,
         SDK,
+        Wwise,
         Config,
         LoadScene,
         Done,
@@ -51,7 +53,7 @@ namespace Frame.Core
         private LuancherState[] _states =
         {
             LuancherState.Core,
-            LuancherState.GameAssets, LuancherState.UIManager, LuancherState.SDK, LuancherState.Config,
+            LuancherState.GameAssets, LuancherState.UIManager, LuancherState.SDK, LuancherState.Config,  LuancherState.Wwise,
             LuancherState.LoadScene
         };
 
@@ -88,24 +90,28 @@ namespace Frame.Core
                     DontDestroyOnLoad(_eventHandler);*/
                     break;
                 case LuancherState.GameAssets:
-                    _loading?.ChangeBar("[正在加载] 加载β世界线信息", 0f, 0.15f);
+                    _loading?.ChangeBar("[正在加载] GameAssets", 0f, 0.15f);
                     //await InitAsset();
                     // await UniTask.WaitUntil(() => startLoadModules);
                     break;
                 case LuancherState.UIManager:
-                    _loading?.ChangeBar("[正在加载] 加载α世界线信息", 0.15f, 0.25f);
+                    _loading?.ChangeBar("[正在加载] UIManager", 0.15f, 0.25f);
                     await InitUIAsync();
                     break;
                 case LuancherState.SDK:
-                    _loading?.ChangeBar("[正在加载] 半拉伊埃斯信息", 0.25f, 0.5f);
+                    _loading?.ChangeBar("[正在加载] SDK", 0.25f, 0.35f);
                     //await InitSDK();
                     break;
                 case LuancherState.Config:
-                    _loading?.ChangeBar("[正在加载] 赫利俄斯研究所", 0.65f, 0.9f);
+                    _loading?.ChangeBar("[正在加载] Config", 0.4f, 0.55f);
                     await InitConfig();
                     break;
+                case LuancherState.Wwise:
+                    _loading?.ChangeBar("[正在加载] 沟槽的外丝", 0.65f, 0.9f);
+                    await InitWwise();
+                    break;
                 case LuancherState.LoadScene:
-                    _loading?.ChangeBar("[正在加载] 赫利俄斯研究所旧址", 0.25f, 0.9f);
+                    _loading?.ChangeBar("[正在加载] LoadScene", 0.25f, 0.9f);
                     await InitScene();
                     break;
                 case LuancherState.Done:
@@ -211,7 +217,12 @@ namespace Frame.Core
             DontDestroyOnLoad(maindata);
             await _mainData.InitConfig();
         }
-
+        public async UniTask InitWwise()
+        {
+            GameObject WwiseMgr = new GameObject("WwiseManager");
+            WwiseManager _mainData = WwiseMgr.AddComponent<WwiseManager>();
+            DontDestroyOnLoad(_mainData);
+        }
         public async UniTask InitScene()
         {
             await CustomSceneManager.LoadSceneAsychonized("Combat",

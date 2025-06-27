@@ -65,6 +65,7 @@ namespace ThGold.Wwise {
             DontDestroyOnLoad(this);
             InitPath();
             //Init();
+            InitXML();
             gameObject.AddComponent<WwiseController>();
         }
 
@@ -74,7 +75,8 @@ namespace ThGold.Wwise {
 #endif
 #if UNITY_EDITOR
 
-            WwisePath = "Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows/SoundbanksInfo.xml";
+            WwisePath = "CGJ2025_WwiseProject/GeneratedSoundBanks/Windows/SoundbanksInfo.xml";
+            //GGJ_WwiseProject\GeneratedSoundBanks\Windows
 #endif
         }
 
@@ -105,7 +107,7 @@ namespace ThGold.Wwise {
                 }
             }
 
-            InitXML();
+         
         }
 
         #region ½âÎöxml

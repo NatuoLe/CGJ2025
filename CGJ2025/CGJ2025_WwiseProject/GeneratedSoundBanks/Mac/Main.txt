@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	412724365	BGM			\Default Work Unit\BGM	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	327506464	Wolf Alice - Lipstick On The Glass	F:\Unity\UnityProject\CGJ2025\CGJ2025\CGJ2025\CGJ2025_WwiseProject\.cache\Mac\SFX\Wolf Alice - Lipstick On The Glass_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wolf Alice - Lipstick On The Glass		47531804
+

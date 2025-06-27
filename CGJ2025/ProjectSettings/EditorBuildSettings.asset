@@ -6,6 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/Scenes/Luancher.unity
+    guid: 207542c9c032b2340a397102b9de398e
+  - enabled: 1
+    path: Assets/Scenes/Combat.unity
+    guid: 48fe33b5c6f5bd447a5c2444ee6ffa4a
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

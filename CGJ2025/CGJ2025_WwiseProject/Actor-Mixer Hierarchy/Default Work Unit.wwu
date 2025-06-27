@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{EAC6354C-B5BA-4AB1-AC8F-3C89B5557005}" SchemaVersion="110">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{EAC6354C-B5BA-4AB1-AC8F-3C89B5557005}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{EAC6354C-B5BA-4AB1-AC8F-3C89B5557005}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Wolf Alice - Lipstick On The Glass" ID="{5DB17E8F-9835-46F3-B6D8-98FB8C8F58A3}" ShortID="332988706">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A89AE851-DAE6-497D-BCB0-1E3EB0E3E211}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BCB674A8-382C-49B9-AB3C-9915756942EE}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Wolf Alice - Lipstick On The Glass" ID="{DCBF8EAD-F169-4184-9454-3CFA77BD3453}">
+							<Language>SFX</Language>
+							<AudioFile>Wolf Alice - Lipstick On The Glass.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="327506464"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Wolf Alice - Lipstick On The Glass" ID="{DCBF8EAD-F169-4184-9454-3CFA77BD3453}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
