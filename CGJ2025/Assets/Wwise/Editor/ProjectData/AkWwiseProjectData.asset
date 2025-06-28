@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 9367f0203337004a848ec0b8ae876230
     GuidInternal: 
-    m_lastTime: -8584506231141298664
+    m_lastTime: -8584505377656038330
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: a874b6bc2c38b949ab3c9915756942ee
     GuidInternal: 
-    m_lastTime: -8584506231141483967
+    m_lastTime: -8584505377658302616
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: fbf1c7cf379a4d4f9cff5972e19128a8
     GuidInternal: 
-    m_lastTime: -8584506193035354350
+    m_lastTime: -8584505377656078622
     List:
     - name: Main
       guid: 40976d35f6760246aaadb3fb416c2453
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 6b84eb1f42fe184ea8e5e781a7758dd0
     GuidInternal: 
-    m_lastTime: -8584506194294122082
+    m_lastTime: -8584505377665061824
     List:
     - name: BGM
       guid: 0e9e8eb3812792489475bf36b4681adb
@@ -125,7 +125,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 558c3e29c97f6941a16d569591e5989b
     GuidInternal: 
-    m_lastTime: -8584506231141248625
+    m_lastTime: -8584505377665051825
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -139,7 +139,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: bbba7e87ca92d641b335a7ee46a8fa98
     GuidInternal: 
-    m_lastTime: -8584506231141463966
+    m_lastTime: -8584505377656068475
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -153,7 +153,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 977e5bd1786dd9498cf9f90f997a8996
     GuidInternal: 
-    m_lastTime: -8584506231141508919
+    m_lastTime: -8584505377656058357
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -167,7 +167,7 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 5749b8c02e22204d92ba9b884cb6ee5c
     GuidInternal: 
-    m_lastTime: -8584506231141369005
+    m_lastTime: -8584505377656048341
     List: []
   ExpandedFileSystemItemIds: 02000000030000000500000006000000
   ExpandedWaapiItemIds: 02000000030000000500000006000000

@@ -15,7 +15,7 @@ namespace ThGold.Event {
 
         //-----------------------GamePlay------------------------
         //
-        public const string ChangWorld = "ChangWorld";
+        public const string CardUpgradeDone = "CardUpgradeDone";
         //
     }
 }
