@@ -29,7 +29,7 @@ public class GameManager : MonoSingleton<GameManager>
         Blocks = new Dictionary<BlockType, SystemBlock>();
 
         WwiseController.Instance.PlayBGM("BGM");
-        EventHandler.Instance.EventDispatcher.AddEventListener(CustomEvent.CardUpgradeDone, updateData);
+        //EventHandler.Instance.EventDispatcher.AddEventListener(CustomEvent.CardUpgradeDone, updateData);
     }
 
     private void updateData(IEvent ievent)

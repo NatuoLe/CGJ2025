@@ -18,9 +18,9 @@ public class SystemCard
 {
     public int CardID;
     public CardData data;
-    public void Init()
+    public void Init(CardData data)
     {
-        
+        this.data = data;
     }
     public void CardUpgradeDone()
     {
